@@ -93,5 +93,4 @@ fn main() {
     let arr = [1, 2, 3];
     let slice = &arr[..];
     println!("{:?}", slice);
-
 }
