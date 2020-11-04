@@ -1,0 +1,1 @@
+D:\Documents\University\3rd_course\Rust\exercises\generics_traits\target\debug\generics_traits.exe: D:\Documents\University\3rd_course\Rust\exercises\generics_traits\src\lib.rs D:\Documents\University\3rd_course\Rust\exercises\generics_traits\src\main.rs
