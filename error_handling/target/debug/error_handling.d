@@ -1,0 +1,1 @@
+D:\Documents\University\3rd_course\Rust\exercises\error_handling\target\debug\error_handling.exe: D:\Documents\University\3rd_course\Rust\exercises\error_handling\src\lib.rs D:\Documents\University\3rd_course\Rust\exercises\error_handling\src\main.rs
