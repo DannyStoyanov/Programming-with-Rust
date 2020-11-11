@@ -84,6 +84,39 @@ fn to_json(value: &dyn ToJson) -> String {
     value.to_json()
 }
 
+trait Add<RHS=Self> {
+    type Output;
+
+    fn add(self, rhs: RHS) -> Self::Output;
+}
+
+impl Add for i32 {
+    type Output = i32;
+
+    fn add(self, rhs: i32) -> i32 {
+        self + rhs
+    }
+}
+impl Add for String {
+    type Output = String;
+
+    fn add(self, rhs: String) -> String {
+        format!("{} {}", self, rhs)
+    }
+}
+
+struct StudentGroup {
+    members: Vec<Student>
+}
+
+impl Add for Student {
+    type Output = StudentGroup;
+
+    fn add(self, rhs: Student) -> StudentGroup {
+        StudentGroup { members: vec![self, rhs] }
+    }
+}
+
 fn main() {
     println!("Number to json:{}", 9.to_json());
     println!("String to json:{}", String::from("UTF18").to_json());
