@@ -1,0 +1,1 @@
+D:\Documents\University\3rd_course\Rust\exercises\traits_iterators_closures\target\debug\traits_iterators_closures.exe: D:\Documents\University\3rd_course\Rust\exercises\traits_iterators_closures\src\lib.rs D:\Documents\University\3rd_course\Rust\exercises\traits_iterators_closures\src\main.rs
