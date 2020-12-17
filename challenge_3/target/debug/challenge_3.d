@@ -1,0 +1,1 @@
+D:\Documents\University\3rd_course\Rust\exercises\challenge_3\target\debug\challenge_3.exe: D:\Documents\University\3rd_course\Rust\exercises\challenge_3\src\lib.rs D:\Documents\University\3rd_course\Rust\exercises\challenge_3\src\main.rs
