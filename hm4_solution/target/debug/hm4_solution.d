@@ -1,0 +1,1 @@
+D:\Documents\University\3rd_course\Rust\exercises\hm4_solution\target\debug\hm4_solution.exe: D:\Documents\University\3rd_course\Rust\exercises\hm4_solution\src\lib.rs D:\Documents\University\3rd_course\Rust\exercises\hm4_solution\src\main.rs
